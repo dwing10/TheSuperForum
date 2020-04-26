@@ -1,0 +1,97 @@
+body
+{
+    background: blue;
+    background: url("media/pow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+header
+{
+    box-shadow: 10px 15px 18px black;
+    background-color: red;
+    font-family: "Elephant";
+}
+.navbar-brand, .nav-link
+{
+    color: yellow;
+}
+a{
+    font-family: "Elephant";
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    text-decoration: none;
+    color: blue;
+}
+#confirm,#cancel
+{
+    color: black;
+    text-decoration: none;
+}
+#confirm:hover,#cancel:hover
+{
+    color: blue;
+}
+p
+{
+    margin-top: 15px;
+}
+table
+{
+    background-color: black;
+    color: white;
+}
+th,td
+{
+    font-size: 16pt;
+    font-family: "Elephant";
+    text-shadow: 5px 5px 10px grey;
+    color: white;
+}
+label
+{
+    font-weight: bolder;
+    margin-top: 15px;
+    font-family: "Elephant";
+    text-shadow: 1px 5px 5px gray;
+    font-size: 16pt;
+}
+textarea, input
+{
+    padding: 5px;
+    padding: 2px;
+    background: url("media/comicBurst.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: silver;
+    box-shadow: 10px 10px 8px black;
+    color: black;
+    font-weight: bolder;
+    border-color: black;
+    border-radius: 15px;
+}
+button
+{
+    background: url("media/comicBurst.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: silver;
+    box-shadow: 10px 10px 8px black;
+    background-color: silver;
+    font-weight: bolder;
+    color: black;
+    border-color: black;
+    border-radius: 15px;
+}
+footer{
+    color: black;
+    border-radius: 25px;
+    padding: 2px;
+    font-size: 8pt;
+    position: fixed;
+    bottom: 0;
+}
